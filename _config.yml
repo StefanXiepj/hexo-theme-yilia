@@ -2,16 +2,17 @@
 
 menu:
   主页: /
-  分类: /categories
-  归档: /archives
+ # 分类: /categories
+ # 归档: /archives
   随笔: /tags/随笔/
+  相册: /photos/index.html
 
 # SubNav
 subnav:
-  github: "#"
+  github: "https://github.com/StefanXiepj"
   weibo: "#"
-  rss: "#"
-  zhihu: "#"
+  #rss: "#"
+  #zhihu: "#"
   #qq: "#"
   #weixin: "#"
   #jianshu: "#"
@@ -70,7 +71,7 @@ google_analytics: ''
 favicon: /favicon.png
 
 #你的头像url
-avatar:
+avatar: /assets/me.jpeg
 
 #是否开启分享
 share_jia: true
@@ -99,6 +100,22 @@ gitment_oauth:
   client_id: ''           #client ID
   client_secret: ''       #client secret
 
+#6. Gitalk
+gitalk: 
+  enable: true    #用来做启用判断可以不用
+  clientID: '43b5ad4e377378c80272'    #Github上生成的
+  clientSecret: 'bf694bf86d7ac87618e8e9463b259de99c0de313'   #同上
+  repo: https://github.com/StefanXiepj/gitalk    #评论所在的github project
+  owner: stefan_xiepj@126.com    #github用户名
+  admin: stefan_xiepj@126.com    #可以初始化评论issue的github账户名称
+  distractionFreeMode: true
+
+## 版权声明
+declare_type: 2
+licensee_url: https://creativecommons.org/licenses/by-nc-sa/4.0/          # 当前应用的版权协议地址。
+licensee_name: '知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议'  # 版权协议的名称
+licensee_img: https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png      # 版权协议的Logo
+
 # 样式定制 - 一般不需要修改，除非有很强的定制欲望…
 style:
   # 头像上面的背景颜色
@@ -118,7 +135,7 @@ slider:
 #  friends: false
 smart_menu:
   innerArchive: '所有文章'
-  friends: '友链'
+  friends: false
   aboutme: '关于我'
 
 friends:
@@ -129,4 +146,4 @@ friends:
   友情链接5: http://localhost:4000/
   友情链接6: http://localhost:4000/
 
-aboutme: 很惭愧<br><br>只做了一点微小的工作<br>谢谢大家
+aboutme: &nbsp;&nbsp; 笔名井地儿, 现就职于桔厂。<br><br>专注于Hive，Spark等大数据计算引擎方向。<br><br>&nbsp;&nbsp;梦想仗剑走天涯<br><br>&nbsp;&nbsp;带心爱的蓉儿去看一看世界的繁华。
